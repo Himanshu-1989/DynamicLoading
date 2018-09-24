@@ -1,0 +1,84 @@
+
+.trip-summary-change-modal-view {
+    
+.tripSummaryChangeContent{ 
+    color: $delta-blue;
+    font-family: $delta-font-stack-light;
+    >div{
+        padding: 2.5rem 1.87rem;   
+    }
+
+    
+    p{
+        font-size: 0.94rem;
+        line-height: 1.5rem;
+        margin-bottom: 0.63rem;
+        a{
+            font-family: $delta-font-stack-semibold;
+            color: $delta-link-text-blue;
+        }
+    }
+    .cta-btn{
+        font-size: 0.75rem;
+        line-height: 1.88rem;
+        letter-spacing: 0.09rem;
+        word-spacing: 0;
+        margin-top: 1.87rem;
+    }
+    .cta-secondary-btn{
+        font-size: 0.75rem;
+        line-height: 1.88rem;
+        letter-spacing: 0.09rem;
+        word-spacing: 0;
+        margin-top: 1.87rem;
+    }
+}
+   
+}
+// MOBILE ONLY CSS
+@media (max-width: $bp-767) {
+    
+}
+
+@media (min-width: $bp-768){
+    .fare-change-modal-view {
+    
+        .fareChangeContent{
+
+            p{
+                font-size: 1rem;
+            }
+        }
+           
+        }
+}
+
+// MOBILE + TABLET ONLY CSS
+@media (max-width: $bp-991) {
+
+}
+
+// TABLET ONLY CSS
+@media (min-width: $bp-768) and (max-width: $bp-991) {
+    
+}
+
+// TABLET + DESKTOP ONLY CSS
+@media (min-width: $bp-768) and (max-width: $bp-1199){
+    
+}
+
+// MIN DESKTOP ONLY CSS
+@media (min-width: $bp-992) and (max-width: $bp-1199) {
+    
+}
+
+// DESKTOP ONLY CSS
+@media (min-width: $bp-992) {
+    
+}
+
+// LARGE DESKTOP ONLY CSS
+@media (min-width: $bp-1200) {
+
+}
