@@ -20,7 +20,9 @@ import {
   
   export class MainComp implements OnInit {
     title = 'TripSummary';
-    modalComponentName: string="TripSummaryChangeModalComponent";
+    @Input()
+    modalComponentName: string;
+    
     constructor(
       private el: ElementRef,
       private ren: Renderer2,
